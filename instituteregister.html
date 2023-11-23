@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>Institute Registration</header>
+
+        <form action="instituteregister.php">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="mobile number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label> Gender </label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input type="City" placeholder="Enter your City" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Institute Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Institute Name</label>
+                            <input type="text" placeholder="Institute Name" required>
+                            
+                        </div>
+                      
+                        <div class="input-field">
+                            <label>Type of Institute</label>
+                            <select required>
+                                <option value="Institute">Type of Institute</option>
+                                <option>School</option>
+                                <option>College</option>
+                                <option>University</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter Password" required>
+                        </div>
+                        
+                    </div>
+                    <div class="tacbox">
+                        <input id="checkbox" type="checkbox"/>
+                        <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+                    </div>
+                
+                    <button class="sumbit">
+                       <span class="btnText"> Register</span>
+                     <!-- <div> <a href="#">Already Register?</a></div>-->
+                        <i class="uil uil-navigator"></i>
+                    </button>
+</body>
+</html>
